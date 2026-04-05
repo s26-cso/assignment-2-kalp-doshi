@@ -9,10 +9,7 @@
  
     .text
  
-# ─────────────────────────────────────────────────────────────
-# struct Node* make_node(int val)
-#   a0 = val (input), returns pointer to new node in a0
-# ─────────────────────────────────────────────────────────────
+
     .globl make_node
 make_node:
     #clearing space in stack
